@@ -70,13 +70,6 @@ function deleteExercise(index) {
         </tr>
         <tr>
           <td>第四週</td>
-          <td>${roundToNearestFive(oneRm * 0.50)}</td>
-          <td>3組 × 12次</td>
-          <td>${roundToNearestFive(oneRm * 0.50) * 12 * 3}</td>
-          <td><input type="checkbox" name="${exercise.name}-week4"></td>
-        </tr>
-        <tr>
-          <td>第五週</td>
           <td>重新評估1RM</td>
           <td colspan="3">重新進行1RM測試，並根據新1RM調整接下來的訓練計劃。</td>
         </tr>
